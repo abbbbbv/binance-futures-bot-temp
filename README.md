@@ -1,29 +1,24 @@
-# Modular Trading Bot Framework
+# Basic Functions for Binance UM Futures
 
-A modular trading bot framework using Binance's UM Futures API, featuring essential trading functions and error handling for automated cryptocurrency trading. This project serves as a starting point for anyone looking to build and customize their trading strategies.
+This repository contains a collection of basic functions for working with the Binance UM Futures API, designed to assist with automated cryptocurrency trading. The functions include basic error handling mechanisms to ensure smoother operations.
 
-## Overview
+## Functions Included
 
-This trading bot template provides a flexible and scalable framework for automated trading on Binance Futures. It includes functions for managing orders, retrieving market data, and handling errors effectively, making it suitable for both beginners and experienced traders.
+- **Get Symbol Information**: Retrieve information about a specific trading symbol.
+- **Get Kline/Candlestick Data**: Fetch historical kline (candlestick) data for market analysis.
+- **Apply Precision**: Adjust values to eliminate precision errors.
+- **Adjust Quantity**: Ensure the trading quantity adheres to market rules.
+- **Place Order**: Execute market orders for buying or selling.
+- **Place Stop Order**: Set stop orders for risk management.
+- **Cancel All Orders**: Cancel any open orders for a specific symbol.
+- **Check Futures Balance**: Retrieve and display your futures account balance and unrealized profits.
 
-### Key Features
+## Contribution
 
-- **Modular Design**: Easily extendable functions to support various trading strategies and features.
-- **Error Handling**: Robust mechanisms for managing API errors with exponential backoff retries.
-- **Market Data Retrieval**: Functions to fetch market information and historical kline data.
-- **Order Management**: Place market and stop orders, as well as cancel open orders.
-- **Account Monitoring**: Access to futures account balances and unrealized profits.
+Adding useful functions and improvements is highly appreciated! If you have suggestions or would like to contribute, feel free to fork the repository and submit a pull request.
 
-## Getting Started
+## Acknowledgments
 
-### Requirements
+Thank you for considering this project as part of your trading toolkit. Happy trading!
 
-- Python 3.x
-- `binance-futures`
-
-### Installation
-
-1. Clone this repository:
-   ```bash
-   git clone https://github.com/abbbbbv/binance-futures-bot-temp.git
-   cd binance-futures-bot-temp
+abhinav00345@gmail.com
