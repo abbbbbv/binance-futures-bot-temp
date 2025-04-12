@@ -112,3 +112,12 @@ def check_futures_balance():
     except Exception as e:
         print(f"An error occurred while fetching futures balance: {e}")
 
+def position_open():
+    try:
+        positions = client.account()['positions']
+        for position in positions:
+            if position['symbol'] == SYMBOL and float(position['positionAmt']) != 0:
+                return True
+    except ClientError as error:
+        logging.error(f"Error checking position: {error}")
+    return False
