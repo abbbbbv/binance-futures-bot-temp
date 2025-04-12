@@ -12,6 +12,7 @@ This repository contains a collection of basic functions for working with the Bi
 - **Place Stop Order**: Set stop orders for risk management.
 - **Cancel All Orders**: Cancel any open orders for a specific symbol.
 - **Check Futures Balance**: Retrieve and display your futures account balance and unrealized profits.
+- **Position Open**: To check if another position is open for the same symbol.
 
 ## Contribution
 
